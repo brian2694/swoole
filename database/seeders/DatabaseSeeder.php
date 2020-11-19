@@ -26,16 +26,16 @@ class DatabaseSeeder extends Seeder
             "email" => "laura@hotmail.com",
             "password"  => bcrypt("secret")
         ]);
-        UserMongo::create([
-            "name" => "Brian Sánchez",
-            "email" => "brian2694@hotmail.com",
-            "password"  => bcrypt("secret")
-        ]);
+        // UserMongo::create([
+        //     "name" => "Brian Sánchez",
+        //     "email" => "brian2694@hotmail.com",
+        //     "password"  => bcrypt("secret")
+        // ]);
 
-        UserMongo::create([
-            "name" => "Laura Arias",
-            "email" => "laura@hotmail.com",
-            "password"  => bcrypt("secret")
-        ]);
+        // UserMongo::create([
+        //     "name" => "Laura Arias",
+        //     "email" => "laura@hotmail.com",
+        //     "password"  => bcrypt("secret")
+        // ]);
     }
 }
